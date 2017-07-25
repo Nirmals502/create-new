@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Settings">
+            <CheckBoxPreference
+                android:title="Work Offline"
+                android:defaultValue="false"
+                android:summary="Stay offline for faster operation"
+                android:key="workOfflinePref">
+            </CheckBoxPreference>
+            <EditTextPreference
+                android:name="Server Hostname"
+                android:summary="Website to interact with"
+                android:defaultValue="test.westpacsupply.com"
+                android:title="Server Hostname"
+                android:key="serverHostnamePref">
+            </EditTextPreference>
+            <EditTextPreference
+                android:name="User ID"
+                android:summary="User to login as"
+                android:defaultValue=""
+                android:title="User ID"
+                android:key="userIdPref">
+            </EditTextPreference>
+            <EditTextPreference
+                android:name="Password"
+                android:summary="Password to login as"
+                android:defaultValue=""
+                android:title="Password"
+                android:key="passwordPref">
+            </EditTextPreference>
+            <CheckBoxPreference
+                android:title="Vibrate On Order Lookup"
+                android:defaultValue="true"
+                android:summary="Vibrate when an order number is found"
+                android:key="vibrateOnLookupPref">
+            </CheckBoxPreference>
+            <CheckBoxPreference
+                android:title="Driver Mode"
+                android:defaultValue="false"
+                android:summary="Driver mode or Counter mode"
+                android:key="driverModePref">
+            </CheckBoxPreference>
+      		<EditTextPreference
+                android:name="Company Name"
+                android:summary="Name of company to be displayed"
+                android:defaultValue="WestPac Supply"
+                android:title="Company Name"
+                android:key="companyNamePref">
+            </EditTextPreference>
+    </PreferenceCategory>
+</PreferenceScreen>

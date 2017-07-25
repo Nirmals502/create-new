@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "G:\\SigCapture KEY2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\sigcap_menu.xml",
+        "source": "G:\\SigCapture KEY2\\app\\src\\main\\res\\menu\\sigcap_menu.xml"
+    },
+    {
+        "merged": "G:\\SigCapture KEY2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\navigation_sigcap_menu.xml",
+        "source": "G:\\SigCapture KEY2\\app\\src\\main\\res\\menu\\navigation_sigcap_menu.xml"
+    },
+    {
+        "merged": "G:\\SigCapture KEY2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\sigcap_login_menu.xml",
+        "source": "G:\\SigCapture KEY2\\app\\src\\main\\res\\menu\\sigcap_login_menu.xml"
+    },
+    {
+        "merged": "G:\\SigCapture KEY2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\navigation.xml",
+        "source": "G:\\SigCapture KEY2\\app\\src\\main\\res\\menu\\navigation.xml"
+    }
+]

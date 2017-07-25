@@ -1,0 +1,7 @@
+#Tue Jul 25 11:58:17 IST 2017
+base.0=G\:\\SigCapture KEY2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\httpclient-4.5.1_964cc16b927e1412377bf627bcb333636d4d8a2f
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=G\:\\SigCapture KEY2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\httpmime-4.3.6_7445b77033d5336f87338aa2867ffcd5d85651b9\\classes.dex
+base.1=G\:\\SigCapture KEY2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\httpmime-4.3.6_7445b77033d5336f87338aa2867ffcd5d85651b9
+file.0=G\:\\SigCapture KEY2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\httpclient-4.5.1_964cc16b927e1412377bf627bcb333636d4d8a2f\\classes.dex

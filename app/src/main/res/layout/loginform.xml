@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loginFormLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/logoView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="20px"
+        android:adjustViewBounds="true"
+        android:src="@drawable/logo"></ImageView>
+
+    <TextView
+        android:id="@+id/CompanyName1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20px"
+        android:paddingTop="15px"
+        android:text="WestPac Supply"
+        android:textAppearance="?android:attr/textAppearanceLarge"></TextView>
+
+    <EditText
+        android:id="@+id/userid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_below="@+id/logoView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
+        android:hint="User ID"
+        android:lines="1"
+        android:paddingBottom="15px"
+        android:paddingTop="15px"
+        android:text="">
+
+        <requestFocus></requestFocus>
+    </EditText>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userid"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
+        android:hint="Password"
+        android:lines="1"
+        android:password="true"
+        android:text=""></EditText>
+
+    <CheckBox
+        android:id="@+id/checkBoxSavePreferences"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
+        android:paddingBottom="15px"
+        android:paddingTop="15px"
+        android:text="Save UserID and Password" />
+
+    <LinearLayout
+        android:id="@+id/loginFormLayoutButtons"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/checkBoxSavePreferences"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:onClick="login"
+            android:text="Login"
+            android:textStyle="bold"></Button>
+
+        <Button
+            android:id="@+id/workOfflineButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@+id/loginButton"
+            android:onClick="workOffline"
+            android:text="Work Offline"
+            android:textStyle="bold"></Button>
+
+    </LinearLayout>
+</RelativeLayout>

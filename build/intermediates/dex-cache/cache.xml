@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="G:\SigCapture KEY2\app\libs\httpmime-4.3.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="66a39a5e37d5da40fdad6176fc24ef4316e74702">
+        <dex dex="G:\SigCapture KEY2\app\build\intermediates\pre-dexed\debug\httpmime-4.3.6_7445b77033d5336f87338aa2867ffcd5d85651b9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\SigCapture KEY2\app\libs\httpclient-4.5.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="7e3cecc566df91338c6c67883b89ddd05a17db43">
+        <dex dex="G:\SigCapture KEY2\app\build\intermediates\pre-dexed\debug\httpclient-4.5.1_964cc16b927e1412377bf627bcb333636d4d8a2f.jar" />
+    </item>
+
+</items>

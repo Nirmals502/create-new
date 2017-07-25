@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:id="@+id/showinfoLayout"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+> 
+<ImageView 
+  android:id="@+id/logoView1"
+  android:src="@drawable/logo" 
+  android:layout_width="wrap_content"  
+  android:adjustViewBounds="true" 
+  android:layout_alignParentTop="false"
+  android:layout_centerHorizontal="false" 
+  android:layout_height="wrap_content" 
+  android:layout_marginLeft="20px" 
+></ImageView>
+<TextView 
+  android:id="@+id/CompanyName1"
+  android:textAppearance="?android:attr/textAppearanceLarge" 
+  android:text="WestPac Supply"  
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content" 
+  android:layout_alignParentRight="true" 
+  android:layout_marginRight="20px" 
+  android:paddingTop="15px"
+></TextView>
+<TextView 
+  android:id="@+id/AppVersion"
+  android:layout_below="@+id/CompanyName1" 
+  android:text="Version 1.0.0"  
+  android:layout_width="fill_parent" 
+  android:layout_height="wrap_content" 
+  android:layout_marginLeft="20px"
+  android:layout_marginRight="20px" 
+  android:paddingTop="15px"
+></TextView>
+<ImageView 
+  android:id="@+id/logoView2"
+  android:src="@drawable/ic_pfinders" 
+  android:layout_alignParentLeft="true"
+  android:layout_width="wrap_content"  
+  android:adjustViewBounds="true" 
+  android:layout_centerHorizontal="false"
+  android:layout_below="@+id/AppVersion" 
+  android:layout_height="wrap_content" 
+  android:layout_marginLeft="20px" 
+  android:paddingTop="15px"
+></ImageView>
+<TextView 
+  android:id="@+id/Programmer"
+  android:layout_below="@+id/AppVersion" 
+  android:layout_alignParentRight="true"
+  android:text="Written By Herb Rubin\nPathfinders Software\nwww.pfinders.com"  
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content" 
+  android:layout_marginRight="20px" 
+  android:paddingTop="15px"
+></TextView>
+</RelativeLayout>

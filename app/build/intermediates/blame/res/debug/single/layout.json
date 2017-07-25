@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "G:\\SigCapture KEY2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\showinfo.xml",
+        "source": "G:\\SigCapture KEY2\\app\\src\\main\\res\\layout\\showinfo.xml"
+    },
+    {
+        "merged": "G:\\SigCapture KEY2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\orderlistitem.xml",
+        "source": "G:\\SigCapture KEY2\\app\\src\\main\\res\\layout\\orderlistitem.xml"
+    },
+    {
+        "merged": "G:\\SigCapture KEY2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\loginform.xml",
+        "source": "G:\\SigCapture KEY2\\app\\src\\main\\res\\layout\\loginform.xml"
+    },
+    {
+        "merged": "G:\\SigCapture KEY2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "G:\\SigCapture KEY2\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "G:\\SigCapture KEY2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\orderinformation.xml",
+        "source": "G:\\SigCapture KEY2\\app\\src\\main\\res\\layout\\orderinformation.xml"
+    },
+    {
+        "merged": "G:\\SigCapture KEY2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\extrafields.xml",
+        "source": "G:\\SigCapture KEY2\\app\\src\\main\\res\\layout\\extrafields.xml"
+    }
+]

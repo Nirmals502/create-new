@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "G:\\SigCapture KEY2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_overflow.png",
+        "source": "G:\\SigCapture KEY2\\app\\src\\main\\res\\drawable-hdpi\\ic_action_overflow.png"
+    },
+    {
+        "merged": "G:\\SigCapture KEY2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_pfinders.png",
+        "source": "G:\\SigCapture KEY2\\app\\src\\main\\res\\drawable-hdpi\\ic_pfinders.png"
+    },
+    {
+        "merged": "G:\\SigCapture KEY2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_exit.png",
+        "source": "G:\\SigCapture KEY2\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_exit.png"
+    },
+    {
+        "merged": "G:\\SigCapture KEY2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_up_right.png",
+        "source": "G:\\SigCapture KEY2\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_up_right.png"
+    },
+    {
+        "merged": "G:\\SigCapture KEY2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\logo.png",
+        "source": "G:\\SigCapture KEY2\\app\\src\\main\\res\\drawable-hdpi\\logo.png"
+    },
+    {
+        "merged": "G:\\SigCapture KEY2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_import.png",
+        "source": "G:\\SigCapture KEY2\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_import.png"
+    },
+    {
+        "merged": "G:\\SigCapture KEY2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_inbox.png",
+        "source": "G:\\SigCapture KEY2\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_inbox.png"
+    },
+    {
+        "merged": "G:\\SigCapture KEY2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_light.png",
+        "source": "G:\\SigCapture KEY2\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_light.png"
+    },
+    {
+        "merged": "G:\\SigCapture KEY2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "G:\\SigCapture KEY2\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\SigCapture KEY2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_gear.png",
+        "source": "G:\\SigCapture KEY2\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_gear.png"
+    }
+]

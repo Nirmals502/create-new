@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sig Capture KEY</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_logout">Logout</string>
+
+    <drawable name="ic_menu__settings">#000000</drawable>
+    <drawable name="ic_menu_logout">#000000</drawable>
+
+    <string name="menu_upload">Upload</string>
+
+    <drawable name="ic_menu_upload">#000000</drawable>
+    <drawable name="ic_menu_data">#000000</drawable>
+
+    <string name="menu_data">Download</string>
+
+    <drawable name="ic_menu_login">#000000</drawable>
+
+    <string name="menu_login">Login</string>
+    <string name="menu_info">Info</string>
+
+    <drawable name="ic_menu_info">#000000</drawable>
+
+    <string name="set_preferences">Sig Capture Preferences</string>
+    <string name="show_info">Application Information</string>
+    <string name="signature">Signature</string>
+    <string name="accept_button">Accept</string>
+    <string name="clear_button">Clear</string>
+    <string name="sign_below">Please sign below</string>
+    <string name="signer">Signed By</string>
+    <string name="signer_name">Signer Name</string>
+    <string name="reprint_ticket">Reprint Pick Ticket?</string>
+    <string name="SA_order_complete">Do you want to SA the order complete?</string>
+    <string name="extrafields">Extra Fields</string>
+
+</resources>

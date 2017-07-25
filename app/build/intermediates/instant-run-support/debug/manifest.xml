@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pfinders.android.SigCapture.KEY"
+    android:versionCode="31"
+    android:versionName="1.4.1 KEY" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.pfinders.android.SigCapture.KEY.SigCaptureActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pfinders.android.SigCapture.KEY.Preferences"
+            android:label="@string/set_preferences"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.pfinders.android.SigCapture.KEY.ShowInfo"
+            android:label="@string/show_info"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.pfinders.android.SigCapture.KEY.Signature"
+            android:label="@string/signature"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.pfinders.android.SigCapture.KEY.extraFields"
+            android:label="@string/extrafields"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.pfinders.android.SigCapture.KEY.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:uiOptions="splitActionBarWhenNarrow" >
+        </activity>
+
+        <provider
+            android:name="com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:authorities="com.pfinders.android.SigCapture.KEY.com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>
