@@ -201,7 +201,7 @@ public class LoginActivity extends Activity {
 					_password.setText(passwordPref);
 				}
 
-				 
+
 			}
 		}
 	}
