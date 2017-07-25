@@ -22,6 +22,7 @@ public class extraFields extends Activity {
 	private static File APP_FILE_PATH = new File(sdDir + "/sigcapture/orders");
 	private String filenamePrefix; // for matching .txt and .jpg files
     String str;
+    String nirmal;
 	boolean workOfflinePref;
     String serverHostnamePref;
     boolean vibrateOnLookupPref;
