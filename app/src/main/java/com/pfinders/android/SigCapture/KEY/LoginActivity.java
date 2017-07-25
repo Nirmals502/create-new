@@ -200,6 +200,8 @@ public class LoginActivity extends Activity {
 					_userId.setText(userIdPref);
 					_password.setText(passwordPref);
 				}
+
+				 
 			}
 		}
 	}
